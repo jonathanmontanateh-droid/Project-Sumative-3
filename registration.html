@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="action_page.php" method="POST">
+        <div>
+            <label for="fname">Nama Lengkap*:</label>
+            <input type="text" id="fname" name="fname" placeholder="" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Password*:</label>
+            <input type="password" id="pass" name="pass" maxlength="12" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="">
+        </div>
+        <br>
+        <div>
+            <label for="phone">Phone #:</label>
+            <input type="telephone" id="phone" name="phone" placeholder="">
+        </div>
+        <br>
+        <div>
+            <label for="title">Panggilan:</label>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." name="title" value="Mr." required>
+            
+            <label for="Mrs.">Mrs.</label>
+            <input type="radio" id="Mrs." name="title" value="Mrs." required>
+
+            <label for="PhD.">PhD.</label>
+            <input type="radio" id="PhD." name="title" value="PhD." required>
+        </div>
+        <br>
+        <div>   
+            <label for="payment">Payment:</label>
+            <select id="payment" name="payment">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option></div>
+            </select>
+        <div>
+        <br>
+        <div>
+            <button type="reset" onclick="myfunction1()">Reset</button>
+        </div>
+        <br>
+        <div>
+            <button type="submit" onclick="myfunction2()">Submit</button>
+        </div>
+    </form>
+
+    <script>
+        function myfunction2(){
+            alert("Form berhasil disubmit")
+        }
+        function myfunction1(){
+            alert("Form berhasil di-reset")
+        }
+    </script>
+</body>
+</html>

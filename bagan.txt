@@ -1,0 +1,13 @@
+products
+id
+name
+price
+des
+image
+cart
+product_id
+quantity
+
+Popular                 Adults          Kids            Teens          Discounts
+Foods                   Delicacies      Fruits          Pizza          Cookies & Cream 49000-5000
+Drinks                  Chicken         Fish and Chips  French Fries   Ice cream & Lava cake 39000-6000
